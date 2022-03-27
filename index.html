@@ -17,6 +17,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
     <script language="javascript" src="admin/inc-script/common.js"></script>
+    <script src="logging.js"></script>
     <title>BBDC</title>
 </head>
 
@@ -31,10 +32,10 @@
                     <tr valign="top">
 
                         <td style="background-color: white;">
-                            <a href="Home.html" target="mainFrame"><img src="image/logo-booking.gif"></a>
+                            <a href="Home.html" target="mainFrame"><img id="logo-booking" src="image/logo-booking.gif"></a>
                         </td>
                         <td style="background-color: white;">
-                            <a href="Home.html" target="mainFrame"><img src="image/logo-title.gif"></a>
+                            <a href="Home.html" target="mainFrame"><img id="logo-title" src="image/logo-title.gif"></a>
                         </td>
 
 
@@ -184,7 +185,7 @@
 
                             <li class="clicklableItem" onclick="gotoGeneral()">
 
-                                <a href="general.html" class="sidelinkbold" target="mainFrame">Theory Test 
+                                <a href="general.html" class="sidelinkbold" target="mainFrame">Theory Test
 
                                 </a>
                             </li>
@@ -232,7 +233,7 @@
                         <ul class="subListOverall">
                             <li class="clicklableItem" onclick="gotoGeneral()">
 
-                                <a href="general.html" class="sidelinkbold" target="mainFrame">Booking Statement 
+                                <a href="general.html" class="sidelinkbold" target="mainFrame">Booking Statement
                                 </a>
                             </li>
 
@@ -252,7 +253,7 @@
                             return self.frames['mainFrame'].location.href = 'General.html'
                         }
                     </script>
-            
+
                 </ul>
                 <!--<SCRIPT LANGUAGE=JAVASCRIPT SRC="../admin/inc-script/DisableRightMouseClick.js"></SCRIPT>-->
 
